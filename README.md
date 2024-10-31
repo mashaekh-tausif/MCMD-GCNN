@@ -1,7 +1,7 @@
 Graph Neural Network Framework for Predicting the Potential Energy Landscape in Hybrid Monte Carlo Molecular Dynamics Simulations
 ============================================================================================
 
-![Project Image](https://github.com/mashaekh-tausif/MCMD-GCNN/blob/ec687ac0f4413dc04b5e9f3a986294e7877cbe5e/Flowchart.png)
+![Project Image](https://github.com/mashaekh-tausif/MCMD-GCNN/blob/384ba3a86116dcae6b46c3f8a6c8998da4ff4008/Flowchart.png)
 
 This project leverages graph neural networks (GNNs) to predict the potential energy landscape of a medium-entropy alloy through hybrid Monte-Carlo molecular dynamics (MC/MD) simulations.
 
