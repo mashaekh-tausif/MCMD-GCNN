@@ -55,7 +55,7 @@ Instructions:
    - case_study_3.ipynb: Model trained on some annealing temperatures data, tested on unseen annealing temperatures data
 
    Open each notebook in Jupyter Notebook or Jupyter Lab to run the cells as needed.
-   You can adjust annealing temperature parameters within each notebook.
+   You can change annealing temperatures within each notebook.
 
 --------------------------------------------------------------------------------------------
 
