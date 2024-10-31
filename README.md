@@ -1,4 +1,4 @@
-##Graph Neural Network Framework for Predicting the Potential Energy Landscape in Hybrid Monte Carlo Molecular Dynamics Simulations
+Graph Neural Network Framework for Predicting the Potential Energy Landscape in Hybrid Monte Carlo Molecular Dynamics Simulations
 ============================================================================================
 
 ![Project Image](https://github.com/yourusername/repo_name/blob/main/path_to_image.png)
