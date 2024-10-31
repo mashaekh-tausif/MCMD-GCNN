@@ -3,7 +3,7 @@ Graph Neural Network Framework for Predicting the Potential Energy Landscape in 
 
 ![Project Image](https://github.com/yourusername/repo_name/blob/main/path_to_image.png)
 
-This project leverages graph neural networks (GNNs) to predict the potential energy landscape of a medium-entropy alloy through hybrid Monte Carlo (MC) and molecular dynamics (MD) simulations.
+This project leverages graph neural networks (GNNs) to predict the potential energy landscape of a medium-entropy alloy through hybrid Monte-Carlo molecular dynamics (MC/MD) simulations.
 
 --------------------------------------------------------------------------------------------
 Instructions:
