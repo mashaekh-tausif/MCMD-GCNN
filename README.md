@@ -14,7 +14,7 @@ Instructions:
    Use the following commands to clone the repository and navigate to the project directory:
    ```bash
    git clone https://github.com/yourusername/MCMD-GCNN
-.git
+   .git
    cd MCMD-GCNN
 
 1. Install Dependencies:
