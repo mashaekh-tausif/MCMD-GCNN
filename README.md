@@ -19,7 +19,7 @@ Instructions:
 1. Install Dependencies:
    ----------------------
    Install the necessary libraries as listed in `requirements.txt`:
-
+   ```bash
    pip install -r requirements.txt
 
 2. Edit config.yml:
@@ -29,20 +29,20 @@ Instructions:
 3. Generate LAMMPS Files:
    -----------------------
    Run `lmp_file_maker.py` to create LAMMPS input files in the directory specified in `config.yaml`:
-
+   ```bash
    python lmp_file_maker.py
 
 4. Run Hybrid MC/MD Simulations:
    ------------------------------
    Run `lmp_file_run.py` to perform hybrid MC/MD simulations in LAMMPS for various annealing temperatures. 
    The default run command can be modified within this script if needed:
-
+   ```bash
    python lmp_file_run.py
 
 5. Generate Graph Data:
    ---------------------
    Convert dump files generated from simulations into graph data by running `make_graph.py`:
-
+   ```bash
    python make_graph.py
 
 6. Conduct Case Studies:
