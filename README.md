@@ -43,7 +43,7 @@ Instructions:
    ---------------------
    Convert dump files generated from simulations into graph data by running `make_graph.py`:
    ```bash
-   python make_graph.py
+   python make_graph_final.py
 
 6. Conduct Case Studies:
    ----------------------
