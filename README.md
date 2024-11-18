@@ -1,4 +1,4 @@
-Graph Neural Network Framework for Energy Mapping of Hybrid Monte Carlo Molecular Dynamics Simulations
+Graph Neural Network Framework for Energy Mapping of Hybrid Monte Carlo Molecular Dynamics Simulations of Medium-Entropy Alloys
 ============================================================================================
 
 ![Project Image](https://github.com/mashaekh-tausif/MCMD-GCNN/blob/384ba3a86116dcae6b46c3f8a6c8998da4ff4008/Flowchart.png)
