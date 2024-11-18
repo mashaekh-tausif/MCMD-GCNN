@@ -16,7 +16,7 @@ for temperature in range(350, 1150 + 1, 100):  # normal code 350 to 1450 with 10
     file_template = lmp_directory+f'\\T={temperature}K\\dump.mc.'
     start_time = time.time()
 
-    for i in range(0, 60000 + 1, 100):
+    for i in range(200, 60000 + 1, 200):
         filename = file_template + str(i)
         pipeline = import_file(filename)
         data = pipeline.compute()
