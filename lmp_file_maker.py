@@ -63,8 +63,8 @@ for temp in range(350, 1150+1, 100):
     write_data      NPT_complete.txt
     variable        pot_energy equal "c_potential"
 
-    write_dump all custom dump.mc.0 id type x y z vx vy vz
-    print			"0 ${{pot_energy}}" append "Potential Energy vs step T_{temp}.txt" screen no
+    
+    print			"0 ${{pot_energy}} ${{temperature}}" append "Potential Energy vs step T_{temp}.txt" screen no
 
 
     #----------------Monte Carlo Simulation------------------------
@@ -101,7 +101,7 @@ for temp in range(350, 1150+1, 100):
 
    
 
-    print           "${{i}} ${{pot_energy}}" append "Potential Energy vs step T_{temp}.txt" screen no
+    print           "${{i}} ${{pot_energy}} ${{temperature}}" append "Potential Energy vs step T_{temp}.txt" screen no
 
     if "${{modulus}}==0" then " write_dump all custom dump.mc.${{i}} id type x y z vx vy vz"
 
