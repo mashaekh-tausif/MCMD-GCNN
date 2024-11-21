@@ -54,7 +54,7 @@ for temperature in range(350, 1150 + 1, 100):  # normal code 350 to 1450 with 10
         final_property_tensor[:,0]=property_tensor[:,1] #type
         final_property_tensor[:,1]=v #velocity
 
-        features = final_property_tensor  # id,type,x,y,z,xs,ys,zs,vx,vy,vz,v
+        features = final_property_tensor  # type,v
 
         # list_2d = [list(inner_generator) for inner_generator in generator_2d]
 
